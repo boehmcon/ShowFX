@@ -165,5 +165,8 @@ Außerdem existiert ein kleiner Unterschied bei paint():
 In AWT konnte Graphics direkt auf den Hintergrund bzw. die Komponente zeichnen. 
 Beim JavaFX-Canvas muss der vorherige Inhalt explizit gelöscht werden. Deshalb:
 g.setFill(Color.BLACK);
-g.fillRect(0, 0, canvas.getWidth(), canvas.getHeight()); 
+g.fillRect(0, 0, canvas.getWidth(), canvas.getHeight());
+
+Ich möchte das nicht machen
+
 */
